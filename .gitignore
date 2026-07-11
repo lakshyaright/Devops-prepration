@@ -1,0 +1,17 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Terraform Plan
+*.tfplan
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
