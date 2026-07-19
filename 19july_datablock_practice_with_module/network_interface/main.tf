@@ -7,7 +7,7 @@ resource "azurerm_network_interface" "nics" {
   ip_configuration {
     name                          = each.value.ip_nic_name
     subnet_id                     = each.value.subnet_id
-    private_ip_address_allocation = each.value.private_ip_address_allocation
-    public_ip_address_id          = each.value.public_ip_address_id
-  }
+    private_ip_address_allocation = each.value.private_ip_address_allocation    
+    
+      }
 }

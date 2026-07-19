@@ -7,8 +7,3 @@ resource "azurerm_virtual_network" "vnets" {
   
 }
 
-provider "azurerm" {
-  features {
-    
-  }
-}

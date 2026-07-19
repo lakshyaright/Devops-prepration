@@ -4,8 +4,3 @@ resource "azurerm_resource_group" "rgs" {
   location = each.value.location
   }
 
-  provider "azurerm" {
-  features {
-    
-  }
-}
