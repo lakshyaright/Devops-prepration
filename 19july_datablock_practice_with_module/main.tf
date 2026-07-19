@@ -26,3 +26,13 @@ module "virtual_machines" {
   source = "./virtual_machine"
   vms    = var.vms
 }
+
+module "str" {
+  source = "./storageaccount"
+  str = var.str
+}
+
+module "storage_container" {
+  source = "./containers"
+storage_container = var.storage_container 
+}

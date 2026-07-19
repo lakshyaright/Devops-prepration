@@ -71,3 +71,20 @@ vms = {
         ]
     }
 }
+
+str = {
+    storage1 = {
+        name    = "sonusatestorage1"
+        location = "westus"
+        resource_group_name = "SProd_rg"
+        account_tier = "Standard"
+        account_replication_type = "LRS"
+    }
+}
+
+storage_container = {
+    container1 ={
+        name    = "statecontainer"
+        storage_account_name = "sonusatestorage1"
+    }
+}
